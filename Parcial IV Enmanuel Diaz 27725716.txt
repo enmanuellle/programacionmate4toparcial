@@ -1,0 +1,43 @@
+Enmanuel Diaz 27725716
+
+(Problema #1)
+Asignación óptima: [(0, 3), (1, 1), (2, 2), (3, 0)]
+Costo total: 13
+
+(Problema #2)
+Asignación óptima: [(0, 1), (1, 3), (2, 2)]
+Costo total: 22
+
+(Problema #3)
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - C:\Users\Diaz\AppData\Local\Programs\Python\Python312\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\Diaz\AppData\Local\Temp\a8ca267a543c48fbb37b25a11e16610b-pulp.mps -timeMode elapsed -branch -printingOptions all -solution C:\Users\Diaz\AppData\Local\Temp\a8ca267a543c48fbb37b25a11e16610b-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 12 COLUMNS
+At line 49 RHS
+At line 57 BOUNDS
+At line 58 ENDATA
+Problem MODEL has 7 rows, 12 columns and 24 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 7 (0) rows, 12 (0) columns and 24 (0) elements
+0  Obj 0 Primal inf 4700 (4)
+6  Obj 387000 Primal inf 200 (1)
+Primal infeasible - objective value 387000
+PrimalInfeasible objective 387000 - 6 iterations time 0.002
+
+Result - Linear relaxation infeasible
+
+Enumerated nodes:           0
+Total iterations:           0
+Time (CPU seconds):         0.00
+Time (Wallclock Seconds):   0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.01
+
+Estado de la solución: Infeasible
+No se encontró una solución óptima.

@@ -1,0 +1,7 @@
+Progrma#1:
+
+munkres==1.1.4
+
+Progrma#2:
+numpy==1.24.3
+pulp==2.7.0
